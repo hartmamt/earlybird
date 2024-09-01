@@ -2,11 +2,11 @@ import type { GatsbyConfig } from 'gatsby'
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: 'Donald Boulton - Dimension V4',
+    title: 'Earlybird Technology',
     author: 'Donald Boulton',
-    siteUrl: 'https://donboulton.com',
+    siteUrl: 'https://earlybird.technology',
     siteImage: '/static/assets/bg.jpg',
-    description: 'A Gatsby.js V4 Starter based on Dimension by HTML5 UP',
+    description: 'Custom Web Development, Design, and Innovation',
   },
   plugins: [
     {
@@ -39,7 +39,7 @@ const config: GatsbyConfig = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'static/assets/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'static/assets/favicon.ico', // This path is relative to the root of the site.
       },
     },
     // {

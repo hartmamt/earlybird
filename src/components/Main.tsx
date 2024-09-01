@@ -6,14 +6,13 @@ import { RiFacebookBoxFill } from '@react-icons/all-files/ri/RiFacebookBoxFill'
 import { RiTwitterFill } from '@react-icons/all-files/ri/RiTwitterFill'
 import { RiInstagramFill } from '@react-icons/all-files/ri/RiInstagramFill'
 import { RiGithubFill } from '@react-icons/all-files/ri/RiGithubFill'
-import { RiYoutubeFill } from '@react-icons/all-files/ri/RiYoutubeFill'
 import ImageGallery from 'react-image-gallery';
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
 import 'photoswipe/dist/photoswipe.css'
+import emailjs from '@emailjs/browser';
 
-import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const nailit = <StaticImage formats={['auto', 'webp']} src="../../static/assets/nailit.png" alt="Nail It" />
 const monti = <StaticImage formats={['auto', 'webp']} src="../images/monti.png" alt="Monti" />
@@ -47,8 +46,8 @@ const Main: React.FC<React.PropsWithChildren<MainProps>> = props => {
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     sendFeedback(
-      'contactus',
-      'matt@engineeric.tech',
+      'template_qys2jci',
+      'earlybirdtechnolgy@gmail.com',
       feedback,
       name,
       email,
@@ -60,7 +59,7 @@ const Main: React.FC<React.PropsWithChildren<MainProps>> = props => {
 
   const sendFeedback = (templateId: string, receiverEmail: string, feedback: string, name: string, email: string, user: string) => {
     emailjs.send(
-      'yandex',
+      'service_gkwyaa8',
       templateId,
       {
         receiverEmail,
@@ -68,13 +67,17 @@ const Main: React.FC<React.PropsWithChildren<MainProps>> = props => {
         name,
         email
       },
-      user
+      'vg0_23APxIslm-2sz'
     )
       .then(res => {
         setFormEmailSent(true);
       })
       .catch(err => console.error('Failed to send feedback. Error: ', err));
   };
+//  .send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, {
+//   publicKey: 'YOUR_PUBLIC_KEY',
+// })
+  //vg0_23APxIslm-2sz
   
   const close = (
     <div

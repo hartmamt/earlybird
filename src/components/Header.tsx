@@ -6,7 +6,6 @@ const Header: React.FC<React.PropsWithChildren<{ timeout?: boolean; onOpenArticl
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
       <Bio />
-      {/* <span className="icon fa fa-laptop"></span> */}
     </div>
     <div className="content">
       <div className="inner">
