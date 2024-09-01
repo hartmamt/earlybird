@@ -45,7 +45,7 @@ const Privacy = () => (
         <p>
           🍪 When you visit this site "convenience" cookies are stored on your computer when you submit a comment to
           help you log in faster to 🔗 \*{' '}
-          <Link to="https://twitter.com/donboulton" alt="Twitter">
+          <Link to="https://twitter.com/hartmamt" alt="Twitter">
             Twitter
           </Link>{' '}
           the next time you tweet.

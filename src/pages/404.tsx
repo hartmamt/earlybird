@@ -34,7 +34,7 @@ const NotFound = () => (
         />
         Back to Homepage
       </Link>
-      <Link to="https://twitter.com/donboulton" className="button -outline">
+      <Link to="https://twitter.com/hartmamt" className="button -outline">
         Report this
         <RiBugLine
           className="button-icon"

@@ -35,8 +35,8 @@ const Layout = ({ children, location }: { children: React.ReactNode, location: a
           <Script
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Donald Boulton Personal Web Site' },
-              { name: 'keywords', content: 'Donald Boulton, personal' },
+              { name: 'description', content: 'Earlyird Technologies Web Site' },
+              { name: 'keywords', content: 'websites, software engineering' },
             ]}
           >
             <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
@@ -63,7 +63,7 @@ const Layout = ({ children, location }: { children: React.ReactNode, location: a
               textShadow: '2px 2px black',
             }}
           >
-            Don Boulton uses cookies for a better user experience.{' '}
+            Earlybird uses cookies for a better user experience.{' '}
             <span
               style={{
                 fontSize: '14px',

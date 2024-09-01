@@ -3,7 +3,7 @@ import type { GatsbyConfig } from 'gatsby'
 const config: GatsbyConfig = {
   siteMetadata: {
     title: 'Earlybird Technology',
-    author: 'Donald Boulton',
+    author: 'Matt Hartman',
     siteUrl: 'https://earlybird.technology',
     siteImage: '/static/assets/bg.jpg',
     description: 'Custom Web Development, Design, and Innovation',
